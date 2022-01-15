@@ -5,9 +5,19 @@ const oneSylbWord = [
     'slump','hill','streak','there','nail','wide','clamp','do','flunk','right','snug','leash','scour','just','ace',
     'smite','lurch','seal','cat','snag','thong','chat','stew','free','mock','snow','bend','ground','damn','beep',
     'stroke','stance','lot','jig','puck','rent','dumb','bat','trained','sail','raise','wall','learn','porn','plug',
-    'heave','off','clock','lack','bliss','prized','path','tank','crest','cooked','serve','slim',
+    'heave','off','clock','lack','bliss','prized','path','tank','crest','cooked','serve','slim'
 ];
-const twoSylbWord = [];
+const twoSylbWord = [
+    'desire','practiced','waxed','friendly','impair','complete','portion','solace','lady',
+    'hateful','herald','network','skipper','broadside','package','farming','cello','touchdown','wildfire','keeping',
+    'waffle','indoor','sticky','evolve','conclude','inept','leper','ammo','maintain','deluge','shambles','cheddar',
+    'metric','flawed','earmark','sitter','being','rater','abstain','soapy','guitar','luscious','translate','conscious',
+    'crippling','fillet','embryo','ginger','adept','bigot','evoke','covered','pizza','candy','threaten','trooper',
+    'tirade','employ','rider','skimpy','favored','lecture','bedrock','comic','beeper','verdant','counting','mama',
+    'misplace','vengeful','curbside','fruitless','espouse','taboo','smoothness','silken','abduct','paying','station',
+    'cosmos','backup','outdo','savage','gaming','formal','pillow','wallow','wiggle','broadband','rugby','basics','triple',
+    'transcend','caution','bustling','killing','ion','privy'
+];
 const threeSylbWord = [];
 const fourSylbWord = [];
 const fiveSylbWord = [
@@ -25,7 +35,7 @@ const fiveSylbWord = [
     'abomination','territorial','exaggerated','ambiguity','million-dollar','self-expression','repository',
     'radicalism','understandable','appreciative','materialize','manufacturer','impenetrable','inconceivable',
     'inefficiency','observational','vice-president','denomination','theoretical','euro-american','palestinian',
-    'constitutional',
+    'constitutional'
 ];
 const sixSylbWord = [];
 const sevenSylbWord = [    
@@ -35,7 +45,7 @@ const sevenSylbWord = [
     'conceptualization','one-dimensional','multidisciplinary','epidemiologist','individualistic','professionalism',
     'intergenerational','multiculturalism','meteorological','anti-inflammatory','industrialization','individualism',
     'epidemiology','autobiographical','secretary-general','telecommunications','constitutionality','sociopolitical',
-    'african-american',
+    'african-american'
 ];
 
 
