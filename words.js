@@ -12,7 +12,16 @@ const fiveSylbWord = [
     'unpredictable','third-generation','senatorial','visibility','self-sufficiency','secularism','retaliation',
     'abomination','territorial','exaggerated','ambiguity','million-dollar','self-expression','repository',
     'radicalism','understandable','appreciative','materialize','manufacturer','impenetrable','inconceivable',
-    'inefficiency','observational','vice-president','denomination','theoretical','euro-american','palestinian','constitutional',
+    'inefficiency','observational','vice-president','denomination','theoretical','euro-american','palestinian',
+    'constitutional',
 ];
-const sevenSylbWord = [];
+const sevenSylbWord = [    
+    'multimillion-dollar','environmentalism','inevitability','interdisciplinary','individuality',
+    'computer-generated','african-american','anesthesiologist','unpredictability','multidimensional',
+    'americanization','socioeconomic','epistemological','archaeological','mexican-american','homosexuality',
+    'conceptualization','one-dimensional','multidisciplinary','epidemiologist','individualistic','professionalism',
+    'intergenerational','multiculturalism','meteorological','anti-inflammatory','industrialization','individualism',
+    'epidemiology','autobiographical','secretary-general','telecommunications','constitutionality','sociopolitical',
+    'african-american',
+];
 
