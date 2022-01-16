@@ -29,7 +29,7 @@ const threeSylbWord = [
     'testament','inertia','unchanging','celery','lyrical','submarine','talkative','chairwoman','lifeboat','restoring',
     'alaskan','poisonous','bemused','dismissive','analog','magistrate','elective','mockery','commando','granulate',
     'battleground','conqueror','widespread','stepmother','overlap','nonmember','fireball','acceptance','lopsided',
-    'specimen','soft','modify','intrigue','mineral','wallpaper',
+    'specimen','soft','modify','intrigue','mineral','wallpaper'
 ];
 const fourSylbWord = [
     'rhetorical','motivation','immortalize','interpretive','appreciate','phenomenal','patriotic','disrespectful',
@@ -44,7 +44,7 @@ const fourSylbWord = [
     'meditation','businesslike','secondyear','reservation','irritated','industrious','english-language','peruvian',
     'departmental','televised','drug-related','communism','enviable','mammography','contaminant','articulate',
     'permission','distinguishing','apology','ordination','curricular','commensurate','legislator','mediocre','fatality',
-    'elemental',
+    'elemental'
 ];
 const fiveSylbWord = [
     'disobedience','promiscuity','patriotism','mythological','ineligible','sociology','panamanian',
@@ -78,7 +78,7 @@ const sixSylbWord = [
     'biotechnology','eligibility','epistemology','sustainability','materialistic','accessibility','universality',
     'misrepresentation','responsibility','ideological','nonproliferation','deterioration','organizational','desirability',
     'respectability','predictability','visualization','idiosyncratic','affordability','disproportionate','examination',
-    'superiority','irregularity','democratization',
+    'superiority','irregularity','democratization'
 ];
 const sevenSylbWord = [    
     'multimillion-dollar','environmentalism','inevitability','interdisciplinary','individuality',
