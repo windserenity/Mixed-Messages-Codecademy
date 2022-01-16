@@ -19,7 +19,21 @@ const twoSylbWord = [
     'transcend','caution','bustling','killing','ion','privy'
 ];
 const threeSylbWord = [];
-const fourSylbWord = [];
+const fourSylbWord = [
+    'rhetorical','motivation','immortalize','interpretive','appreciate','phenomenal','patriotic','disrespectful',
+    'one-sided','astronomer','prostitution','vocational','geologist','iteration','devotional','predominate','malaria',
+    'psychedelic','homemaker','confession','animation','restorative','obedient','generator','inefficient',
+    'mean-spirited','repertory','exterior','inexperience','believable','pedestrian','pneumonia','fluctuation',
+    'controversy','entanglement','cultivation','seminary','epilepsy','variable','pornographic','disembodied',
+    'unnatural','embodiment','antiquated','nineyear-old','academy','introspective','quantitative','abdominal',
+    'mitigation','moisturizer','miscellaneous','expectancy','autocratic','allegation','nobility','allegiance',
+    'whistleblower','denunciation','assertiveness','australian','cameraman','repetitive','secession','unbiased',
+    'unabashed','irritable','allegory','fundamental','adulation','maturity','pluralism','imperial','politicized',
+    'meditation','businesslike','secondyear','reservation','irritated','industrious','english-language','peruvian',
+    'departmental','televised','drug-related','communism','enviable','mammography','contaminant','articulate',
+    'permission','distinguishing','apology','ordination','curricular','commensurate','legislator','mediocre','fatality',
+    'elemental',
+];
 const fiveSylbWord = [
     'disobedience','promiscuity','patriotism','mythological','ineligible','sociology','panamanian',
     'fortification','metaphorical','popularity','psychotherapy','irresistible','anorexia','victimization',
