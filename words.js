@@ -64,7 +64,21 @@ const fiveSylbWord = [
     'constitutional'
 ];
 const sixSylbWord = [
-    
+    'denominationa','sentimentality','functionality','extraterrestrial','microorganism','intermediary',
+    'institutionalize','community-based','totalitarian','determination','indistinguishable','extracurricular',
+    'invisibility','rationalization','particularity','two-dimensional','compatibility','availability','intergovernmental',
+    'antisemitism','materialism','religiosity','sociological','identification','representational','identifiable',
+    'profitability','counterterrorism','unrecognizable','meteorologist','heterosexual','variability','operationalize',
+    'politicization','sociocultural','paramilitary','objectionable','liberalization','experimentation','revolutionary',
+    'imperialism','encyclopedia','intercollegiate','discriminatory','unconventional','adaptability','autobiography',
+    'generation','seventeenth','accountability','perfectionism','authoritarian','beneficiary','parliamentary','unimaginable',
+    'characterization','geopolitical','insensitivity','commercialization','irritability','underrepresented','acceptability',
+    'colonialism','idiosyncrasy','conciliatory','personification','categorization','impossibility','inconsequential',
+    'environmentalist','historiography','nanotechnology','institutionalized','unconstitutional','originality','reliability',
+    'biotechnology','eligibility','epistemology','sustainability','materialistic','accessibility','universality',
+    'misrepresentation','responsibility','ideological','nonproliferation','deterioration','organizational','desirability',
+    'respectability','predictability','visualization','idiosyncratic','affordability','disproportionate','examination',
+    'superiority','irregularity','democratization',
 ];
 const sevenSylbWord = [    
     'multimillion-dollar','environmentalism','inevitability','interdisciplinary','individuality',
