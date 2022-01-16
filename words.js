@@ -18,7 +18,19 @@ const twoSylbWord = [
     'cosmos','backup','outdo','savage','gaming','formal','pillow','wallow','wiggle','broadband','rugby','basics','triple',
     'transcend','caution','bustling','killing','ion','privy'
 ];
-const threeSylbWord = [];
+const threeSylbWord = [
+    'malignant','dehydrate','vestibule','enthusiast','popular','specify','tolerant','overhear','religion',
+    'consistent','islamist','afternoon','silicon','for-profit','autistic','cross-legged','inflection',
+    'enduring','dismantling','cessation','architect','son-in-law','regimen','essential','foreshadow','interchange',
+    'light-year','poisoning','pseudonym','gravity','decorum','pesticide','provincial','handkerchief','linoleum','potential',
+    'decrepit','perplexed','disguised','lubricant','well-meaning','decimate','relegate','erotic','listener','eulogy',
+    'terminal','granddaughter','devotion','glamorous','second','commencement','endeavor','terminate','acrylic',
+    'snowmobile','grandparent','belittle','immigrant','uniformed','burned','circuitry','persistent','redemption',
+    'testament','inertia','unchanging','celery','lyrical','submarine','talkative','chairwoman','lifeboat','restoring',
+    'alaskan','poisonous','bemused','dismissive','analog','magistrate','elective','mockery','commando','granulate',
+    'battleground','conqueror','widespread','stepmother','overlap','nonmember','fireball','acceptance','lopsided',
+    'specimen','soft','modify','intrigue','mineral','wallpaper',
+];
 const fourSylbWord = [
     'rhetorical','motivation','immortalize','interpretive','appreciate','phenomenal','patriotic','disrespectful',
     'one-sided','astronomer','prostitution','vocational','geologist','iteration','devotional','predominate','malaria',
@@ -51,7 +63,9 @@ const fiveSylbWord = [
     'inefficiency','observational','vice-president','denomination','theoretical','euro-american','palestinian',
     'constitutional'
 ];
-const sixSylbWord = [];
+const sixSylbWord = [
+    
+];
 const sevenSylbWord = [    
     'multimillion-dollar','environmentalism','inevitability','interdisciplinary','individuality',
     'computer-generated','african-american','anesthesiologist','unpredictability','multidimensional',
