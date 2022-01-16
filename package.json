@@ -1,0 +1,12 @@
+{
+  "name": "mixed-messages-codecademy",
+  "version": "1.0.0",
+  "description": "Project",
+  "main": "words.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Boris Peresechensky",
+  "license": "MIT"
+}

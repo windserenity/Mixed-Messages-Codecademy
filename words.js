@@ -91,4 +91,4 @@ const sevenSylbWord = [
 ];
 
 
-
+export { sevenSylbWord, sixSylbWord, fiveSylbWord, fourSylbWord, threeSylbWord, twoSylbWord, oneSylbWord };
