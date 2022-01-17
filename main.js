@@ -2,4 +2,4 @@
 import {oneSylbWord as one, twoSylbWord as two, threeSylbWord as three, fourSylbWord as four, fiveSylbWord as five, sixSylbWord as six, sevenSylbWord as seven } from './words.js';
 
 
-console.log(six);
+console.log(one);
