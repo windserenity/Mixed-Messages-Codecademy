@@ -2,4 +2,20 @@
 import {oneSylbWord as one, twoSylbWord as two, threeSylbWord as three, fourSylbWord as four, fiveSylbWord as five, sixSylbWord as six, sevenSylbWord as seven } from './words.js';
 
 
-console.log(one);
+const randomWordSelector = (wordArray) => { //function to slecet a random word from any given array
+    let indexOfArray = Math.floor(Math.random() * wordArray.length +1);
+    return wordArray[indexOfArray];
+};
+
+
+function randommArraySelector() { //randomly selected array with the index retunred as object for hiku syllables
+    let selector = [one, two, three, four, five, six, seven];
+        let index =  Math.floor(Math.random() * selector.length); 
+             let obj = {
+                words: selector[index],
+                syllables: index
+            };   
+    return obj;  
+};
+
+console.log(randomWordSelector(randommArraySelector().words));
