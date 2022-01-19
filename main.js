@@ -18,4 +18,19 @@ function randommArraySelector() { //randomly selected array with the index retun
     return obj;  
 };
 
-console.log(randomWordSelector(randommArraySelector().words));
+/* let word = randommArraySelector();
+console.log(randomWordSelector(word.words));
+console.log(word.syllables+1);
+ */
+
+let syllables = 0; 
+    while (syllables<7 ) {
+        
+        let word = randommArraySelector();
+        console.log(randomWordSelector(word.words));
+        console.log(word.syllables+1); 
+        
+        syllables ++
+    };
+
+
