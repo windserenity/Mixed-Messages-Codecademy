@@ -12,23 +12,43 @@ const randommArraySelector = () => { //randomly selected array with the index re
     let selector = [one, two, three, four, five, six, seven];
         let index =  Math.floor(Math.random() * selector.length); 
              let obj = {
-                words: selector[index],
-                syllables: index
+                words: selector[index], //reurns the random array
+                syllables: index // returns number of sylbs in the arrays words
             };   
     return obj;  
 };
 
 
     const wordsWithSylbalCount = sylbNum => {
-
-        let word = randommArraySelector();
-        console.log(randomWordSelector(word.words));
-        console.log(word.syllables+1); 
-    
         
+        let sylbCounter = 0;    
+                while (sylbCounter < sylbNum) {
+                    
+                    
+                    let wordArr  = randommArraySelector(); // assign randomly selected object to a var
+                    let ranWord = randomWordSelector(wordArr.words); // assign randomly selected word using callback fn
+                    let ranWordSylb = wordArr.syllables+1; // assign selected words sylbal number.
+                       
+                    if (ranWordSylb == sylbNum) {
+                        console.log(`word selected: ${ranWord}`); 
+                        console.log(`syllables: ${ranWordSylb}`); 
+                        sylbCounter = sylbNum;
+                    } 
+                    
+                    
+                    // console.log(`word selected: ${ranWord}`); 
+                    // console.log(`syllables: ${ranWordSylb}`); 
+                    
+                    // sylbCounter ++
+                }
+        
+        
+        
+    
+    console.log(`sylb enterd ${sylbNum}`);
         
     };
    
 
 
- console.log();
+ console.log(wordsWithSylbalCount(7));
