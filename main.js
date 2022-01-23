@@ -13,42 +13,49 @@ const randommArraySelector = () => { //randomly selected array with the index re
         let index =  Math.floor(Math.random() * selector.length); 
              let obj = {
                 words: selector[index], //reurns the random array
-                syllables: index // returns number of sylbs in the arrays words
+                syllables: index, // returns number of sylbs in the arrays words
+                manualWord(num){ //this method taks a number to manualy select an array if needed for logic
+                    return  selector[num-1];
+                },
+                reduceRangeSelectorWord(number){ //this method let me limit how many arrays are in the pool
+                    return  selector[Math.floor(Math.random() * number)]; 
+                }
             };   
     return obj;  
 };
 
 
     const wordsWithSylbalCount = sylbNum => {
-        
         let sylbCounter = 0;    
                 while (sylbCounter < sylbNum) {
                     
                     
-                    let wordArr  = randommArraySelector(); // assign randomly selected object to a var
-                    let ranWord = randomWordSelector(wordArr.words); // assign randomly selected word using callback fn
-                    let ranWordSylb = wordArr.syllables+1; // assign selected words sylbal number.
+                    let wordArr  = randommArraySelector(); // assign randomly selected array to a var
+                    let ranWord = randomWordSelector(wordArr.words); // assign randomly selected word  from the object returned by random array selector fn
+                    let ranWordSylb = wordArr.syllables+1; // assign selected words sylbal number. +1 to skip index 0
                        
-                    if (ranWordSylb == sylbNum) {
-                        console.log(`word selected: ${ranWord}`); 
-                        console.log(`syllables: ${ranWordSylb}`); 
-                        sylbCounter = sylbNum;
-                    } 
+                            if (ranWordSylb == sylbNum) {
+                                console.log(`word selected: ${ranWord}`);
+                                console.log(`syllables: ${ranWordSylb}`);
+                            } else if (ranWordSylb == sylbNum -1) {
+                                
+                            }
                     
                     
-                    // console.log(`word selected: ${ranWord}`); 
-                    // console.log(`syllables: ${ranWordSylb}`); 
+                    // console.log(randomWordSelector(wordArr.reduceRangeSelectorWord(1)));
+                   
+                      
                     
-                    // sylbCounter ++
+                    sylbCounter ++
                 }
         
         
         
     
-    console.log(`sylb enterd ${sylbNum}`);
+    // console.log(`sylb enterd ${sylbNum}`);
         
     };
    
 
 
- console.log(wordsWithSylbalCount(7));
+ console.log(wordsWithSylbalCount(5));
