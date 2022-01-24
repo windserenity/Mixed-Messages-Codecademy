@@ -4,25 +4,13 @@ import {oneSylbWord as one, twoSylbWord as two, threeSylbWord as three, fourSylb
 
 const randomWordSelector = wordArray => { //function to slecet a random word from any given array
     let indexOfArray = Math.floor(Math.random() * wordArray.length);
-    console.log(indexOfArray);
     return wordArray[indexOfArray];
 };
 
 
-const randommArraySelector = () => { //randomly selected array with the index retunred as object for hiku syllables
+const arraySelector = (num) => { 
     let selector = [one, two, three, four, five, six, seven];
-        let index =  Math.floor(Math.random() * selector.length); 
-             let obj = {
-                words: selector[index], //reurns the random array
-                syllables: index, // returns number of sylbs in the arrays words
-                manualWord(num){ //this method taks a number to manualy select an array if needed for logic
-                    return  selector[num-1];
-                },
-                reduceRangeSelectorWord(number){ //this method let me limit how many arrays are in the pool
-                    return  selector[Math.floor(Math.random() * number)]; 
-                }
-            };   
-    return obj;  
+    return selector[num];  
 };
 
 
@@ -44,17 +32,30 @@ const randomSelectorInRange = (sum, theCount) => {
     // push remainder into last array index so that it returns sum   
     let newarr = calculatedArray.slice(0, calculatedArray.length-1) ;
     newarr.push(calculatedArray[calculatedArray.length-1] + remainingVal);
-    return newarr;
+    let result = newarr.filter(word => word != 0); //filter 0 to not break array indexing
+    return result;
+    
 };
 
-    
-                    
-    let wordArr  = randommArraySelector(); // assign randomly selected array to a var
-    let ranWord = randomWordSelector(wordArr.words); // assign randomly selected word  from the object returned by random array selector fn
-    let ranWordSylb = wordArr.syllables+1; // assign selected words sylbal number. +1 to skip index 0
-                  
-        
-        
+
+const assembler = numberOfSyllables => {
+    let amountOfwordsForSylbCount = Math.floor(Math.random()* numberOfSyllables + 1);
+    let randomRange = randomSelectorInRange(numberOfSyllables, amountOfwordsForSylbCount)
+    let selectedWords = [];
+        for (const i of randomRange) {       
+            selectedWords.push(randomWordSelector(arraySelector(i-1)));  
+        }
+
+    let sentence = selectedWords.join(' ').toString() + ".";
+    let capitalizeSentance = sentence.charAt(0).toUpperCase() + sentence.slice(1);
+;
+return capitalizeSentance;
+
+};
+
+console.log(assembler(5));
+console.log(assembler(7));
+console.log(assembler(5));
         
 
 
