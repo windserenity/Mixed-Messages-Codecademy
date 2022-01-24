@@ -3,7 +3,8 @@ import {oneSylbWord as one, twoSylbWord as two, threeSylbWord as three, fourSylb
 
 
 const randomWordSelector = wordArray => { //function to slecet a random word from any given array
-    let indexOfArray = Math.floor(Math.random() * wordArray.length +1);
+    let indexOfArray = Math.floor(Math.random() * wordArray.length);
+    console.log(indexOfArray);
     return wordArray[indexOfArray];
 };
 
@@ -25,37 +26,35 @@ const randommArraySelector = () => { //randomly selected array with the index re
 };
 
 
-    const wordsWithSylbalCount = sylbNum => {
-        let sylbCounter = 0;    
-                while (sylbCounter < sylbNum) {
-                    
-                    
-                    let wordArr  = randommArraySelector(); // assign randomly selected array to a var
-                    let ranWord = randomWordSelector(wordArr.words); // assign randomly selected word  from the object returned by random array selector fn
-                    let ranWordSylb = wordArr.syllables+1; // assign selected words sylbal number. +1 to skip index 0
-                       
-                            if (ranWordSylb == sylbNum) {
-                                console.log(`word selected: ${ranWord}`);
-                                console.log(`syllables: ${ranWordSylb}`);
-                            } else if (ranWordSylb == sylbNum -1) {
-                                
-                            }
-                    
-                    
-                    // console.log(randomWordSelector(wordArr.reduceRangeSelectorWord(1)));
-                   
-                      
-                    
-                    sylbCounter ++
-                }
-        
-        
-        
+const randomSelectorInRange = (sum, theCount) => {
+    let currSum = 0;
+    let calculatedArray = [];
+        for (let i = 0; i < theCount; i++) {
+            calculatedArray.push(Math.random());
+            currSum += calculatedArray[i];                
+        }  
+    let sumAfterFloor = 0;
+    let remainingVal = 0;
+        for (let j = 0; j < theCount; j++) {
+            let valueToMax = (calculatedArray[j] /currSum) * sum; //formaula to get the random numbers to equal sum
+                    calculatedArray[j] = Math.floor(valueToMax);
+                    sumAfterFloor += calculatedArray[j];
+                    remainingVal = sum- sumAfterFloor;                      
+        }
+    // push remainder into last array index so that it returns sum   
+    let newarr = calculatedArray.slice(0, calculatedArray.length-1) ;
+    newarr.push(calculatedArray[calculatedArray.length-1] + remainingVal);
+    return newarr;
+};
+
     
-    // console.log(`sylb enterd ${sylbNum}`);
+                    
+    let wordArr  = randommArraySelector(); // assign randomly selected array to a var
+    let ranWord = randomWordSelector(wordArr.words); // assign randomly selected word  from the object returned by random array selector fn
+    let ranWordSylb = wordArr.syllables+1; // assign selected words sylbal number. +1 to skip index 0
+                  
         
-    };
-   
+        
+        
 
 
- console.log(wordsWithSylbalCount(5));
