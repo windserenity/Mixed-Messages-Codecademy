@@ -1,5 +1,4 @@
-# Jan 24, 2022
-**# Mixed-Messages Project - Random Haiku Generator**
+# Mixed-Messages Project - Random Haiku Generator
 
 
 A cool little  program written in JavaScript that randomly returns a correctly formatted haiku. 
@@ -33,13 +32,13 @@ This program was designed based on an assignment in Codecademy’s Full-Stack En
 
 
 
-**# Technologies**
+# Technologies
 Project is created with :
 ```
 Node.js
 JavaScript
 ```
-**## To run this program, you must download Node.js.**
+## To run this program, you must download Node.js.
 ```
 curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
 
@@ -48,6 +47,6 @@ curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.
 $ node main.js
 ```
 
-**## You can run this program in browser by visiting its GitHub pages link:**
+## You can run this program in browser by visiting its GitHub pages link:
 [Mixed Messages - haiku](https://windserenity.github.io/Mixed-Messages-Codecademy/
 ) 
