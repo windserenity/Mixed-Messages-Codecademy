@@ -1,10 +1,11 @@
-# Mixed-Messages Project - Random Hiku Generator
+# Jan 24, 2022
+**# Mixed-Messages Project - Random Haiku Generator**
 
 
-A cool little  program written in JavaScript that randomly returns a correclty formated hiku. 
+A cool little  program written in JavaScript that randomly returns a correctly formatted haiku. 
 
->It uses Math logic to select a random word from a data base of workds in  `words.js`.  
-The program thenn checks to see how many syllables are in that word and complates the sentecne with other randomly chosen words that fit the reminder of the syllables needed. Each sentence can arrive at required syllables count randomly.
+>It uses Math logic to select a random word from a data base of words in  `words.js`.  
+The program then checks to see how many syllables are in that word and completes the sentence with other randomly chosen words that fit the reminder of the syllables needed. Each sentence can arrive at required syllables count randomly.
 
 ```
 Example: 
@@ -25,28 +26,28 @@ Expected output will have [1,5,1] or [7] or [1,3,3] etc.
 
 ```
 
-This program was designed based on an assignment in Codecademy's Full-Stack Engineering Path.
+This program was designed based on an assignment in Codecademy’s Full-Stack Engineering Path.
 
 
 
 
 
 
-# Technologies
+**# Technologies**
 Project is created with :
 ```
 Node.js
 JavaScript
 ```
-## To run this program, you must download Node.js.
+**## To run this program, you must download Node.js.**
 ```
 curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
 
 
 
-$ node script.js
+$ node main.js
 ```
 
-## You can run this program in borwser by visiting its github pages link:
-[Mixed Messages - hiku](https://windserenity.github.io/Mixed-Messages-Codecademy/
+**## You can run this program in browser by visiting its GitHub pages link:**
+[Mixed Messages - haiku](https://windserenity.github.io/Mixed-Messages-Codecademy/
 ) 
