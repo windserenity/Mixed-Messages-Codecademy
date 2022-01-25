@@ -54,7 +54,7 @@ return capitalizeSentance;
 };
 
 
-const printToScreen = () => {
+export const printToScreen = () => {
     alert('Hey from Script file');
 };
 
