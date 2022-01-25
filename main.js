@@ -53,6 +53,11 @@ return capitalizeSentance;
 
 };
 
+
+const printToScreen = () => {
+    alert('Hey from Script file');
+};
+
 console.log(assembler(5));
 console.log(assembler(7));
 console.log(assembler(5));
