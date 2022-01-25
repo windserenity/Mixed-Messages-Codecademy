@@ -54,8 +54,12 @@ return capitalizeSentance;
 };
 
 
-export const printToScreen = () => {
-    alert('Hey from Script file');
+let gen = document.getElementById("gen");
+
+gen.onclick = function (){
+    alert(assembler(5) + "\n" + assembler(7)+ "\n" + assembler(5)) 
+
+
 };
 
 console.log(assembler(5));
